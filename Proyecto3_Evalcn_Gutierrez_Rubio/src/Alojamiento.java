@@ -1,7 +1,7 @@
 
 public abstract class Alojamiento {
 	private String codigo;
-	private static final int PRECIO_POR_DIA = 50;
+	private static final int PRECIO_POR_DIA = 155;
 	private int numPlazas;
 	private int suplemento;
 	
