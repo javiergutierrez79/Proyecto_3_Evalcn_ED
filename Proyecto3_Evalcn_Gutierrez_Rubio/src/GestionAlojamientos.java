@@ -62,7 +62,7 @@ public class GestionAlojamientos {
 			}
 		}
 		return -1;
-	}//buscar
+	}//buscar alojamiento
 
 	public static void calculaPrecioAlquiler(ArrayList<Alojamiento> alojamientos) {
 		// Los datos de entrada serán el código del alojamiento y

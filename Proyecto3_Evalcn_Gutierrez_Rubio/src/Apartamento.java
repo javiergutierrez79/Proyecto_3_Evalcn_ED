@@ -13,7 +13,7 @@ public class Apartamento extends Alojamiento{
 	// En los apartamentos se calcula el suplemento por día
 	// dividiendo la cuota mensual de los gastos de comunidad por 30 y multiplicarla por el número de días que se han alquilado
 	@Override
-	public double precioAPagar(char dias) {
+	public double precioAPagar(int dias) {
 		
 		return getPrecioPorDia()*dias + (double)gastosComunidad*dias/30;
 		
